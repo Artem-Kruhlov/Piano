@@ -1,0 +1,44 @@
+body {
+    background-color: green;
+}
+
+
+.key-white {
+border: 1px solid grey;
+    padding: 100px 25px 25px;
+    background-color: white;
+}
+
+.key-black {
+    border: 1px solid grey;
+    padding: 70px 15px 15px;
+    background-color: black;
+    color: white;
+    
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+display: grid;
+}
+
+
+.white-keys {
+width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.black-keys {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    left: -35%;
+    top: 8px;
+}
